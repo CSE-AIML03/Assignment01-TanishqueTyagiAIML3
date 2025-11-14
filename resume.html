@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Resume — Your Name</title>
+  <style>
+    /* Simple, beginner-friendly CSS (level 1) */
+    body{font-family: Arial, sans-serif; background:#f2f4f7; margin:0; padding:20px}
+    .container{max-width:800px; margin:0 auto; background:#fff; padding:16px; border:1px solid #ddd}
+    .header{overflow:auto}
+    .left{float:left; width:30%}
+    .right{float:right; width:68%}
+    .avatar{width:70px; height:70px; background:#007bff; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:bold}
+    h1{margin:0 0 6px 0; font-size:20px}
+    p.small{margin:4px 0; color:#555}
+
+    /* contact and lists */
+    ul{padding-left:18px}
+    li{margin-bottom:6px}
+
+    /* simple table for education */
+    table{width:100%; border-collapse:collapse; margin-top:8px}
+    th, td{padding:8px; border:1px solid #eee; text-align:left}
+
+    /* clear floats */
+    .clear{clear:both}
+
+    /* responsive very simple */
+    @media (max-width:600px){
+      .left, .right{float:none; width:100%}
+      .avatar{margin-bottom:8px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="left">
+        <div class="avatar">YN</div>
+      </div>
+      <div class="right">
+        <h1>Your Name</h1>
+        <p class="small">Job Title — City, Country</p>
+        <p class="small">Email: you@example.com | Phone: +1 555 123 4567</p>
+      </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">Profile</h2>
+      <p style="margin-top:0">A brief 1-2 sentence summary about you. Keep it short and focused on your strengths and job goal.</p>
+    </section>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">Experience</h2>
+      <div>
+        <strong>Job Title — Company Name</strong>
+        <p class="small">Month Year — Present</p>
+        <ul>
+          <li>One sentence describing what you did.</li>
+          <li>Another short achievement or responsibility.</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>Previous Job — Company</strong>
+        <p class="small">Month Year — Month Year</p>
+        <ul>
+          <li>One sentence about this role.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <td>B.Sc. Computer Science — University Name (2013 — 2017)</td>
+        </tr>
+        <tr>
+          <th>Other</th>
+          <td>Relevant coursework or honors</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">Skills</h2>
+      <ul>
+        <li>HTML, CSS, basic JavaScript</li>
+        <li>Microsoft Office / Google Workspace</li>
+        <li>Teamwork, communication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 style="font-size:16px; margin-bottom:6px">Projects / Other</h2>
+      <ul>
+        <li>Short project name — 1 line description.</li>
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
